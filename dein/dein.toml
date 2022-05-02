@@ -67,6 +67,7 @@ hook_source = '''
           \ })
     call deoplete#custom#option('camel_case', v:true)
 '''
+
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 hook_add = '''
@@ -87,3 +88,12 @@ hook_add = '''
     " virtualenvを有効
     let g:airline#extensions#virtualenv#enabled = 1
 '''
+
+[[plugins]]
+repo = 'junegunn/fzf'
+build_on = '''
+./install -all
+'''
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
