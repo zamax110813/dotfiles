@@ -141,3 +141,6 @@ if len(s:removed_plugins) > 0
   call dein#recache_runtimepath()
 endif
 " }}}
+
+"別タブでコピーした文字列をペースト"
+set clipboard=unnamed,autoselect
