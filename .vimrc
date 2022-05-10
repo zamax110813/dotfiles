@@ -155,6 +155,8 @@ let g:airline_theme='papercolor'
 "tabs switch (to switch the next tab, Ctrl-n, to switch to the previous tab, Ctrl-p)"
 nmap <C-p> <Plug>AirlineSelectPrevTab
 nmap <C-n> <Plug>AirlineSelectNextTab
+"enable tabs"
+let g:airline#extensions#tabline#enabled=1
 
 "#############################################################################################################################################################################################################"
 
